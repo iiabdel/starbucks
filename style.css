@@ -1,0 +1,356 @@
+@import url(//db.onlinewebfonts.com/c/d7e8a95865396cddca89b00080d2cba6?family=SoDo+Sans+SemiBold);
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "SoDo Sans SemiBold", Arial, Helvetica, sans-serif;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.2em 1.5em;
+    box-shadow: 1;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+button{
+    color: black;
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    height: 50px;
+    cursor: pointer;
+}
+.menudiv img{
+    width: 30px;
+}
+.menudiv img:hover{
+    cursor: pointer;
+}
+main .container{
+    background-color: rgb(160,194,146);
+    margin-top: 2em;
+    max-width: 1440px;
+    max-height: 630px;
+}
+.leftdiv{
+    background-color: rgb(160,194,146);
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.leftdiv button{
+    background-color: rgb(160,194,146);
+    border: 1px solid 	rgb(30,57,50);
+    border-radius: 30px;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 0.7em;
+    padding-bottom: 0.7em;
+    font-size: 1rem;
+}
+.title{
+    color: 	rgb(30,57,50);
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 0.5em;
+}
+.paragraph{
+    text-align: center;
+    max-width: 20em;
+    font-size: 1.3rem;
+    font-weight: lighter;
+    margin-bottom: 2em;
+}
+.rightdiv{
+    background-color:rgb(160,194,146);
+    flex: 1;
+
+}
+.rightdiv img{
+    width: 100%;
+}
+footer{
+    height: 10em;
+    background-color:#f8f8f8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+
+button{
+    transition: all 0.25s;
+}
+button:hover{
+    filter:brightness(50%);
+}
+
+li, .location p{
+    transition: all 0.25s;
+}
+li:hover{
+    color: 	#00623F;
+    cursor: pointer;
+    transform: translatex(-3px);
+}
+.location p:hover{
+    color: 	#00623F;
+    cursor: pointer;
+    transform: translate(-3px);
+}
+
+footer div a{
+    font-style: none;
+    text-decoration: none;
+    color: black;
+    transition: all 0.25s
+}
+footer div a:hover{
+    font-style: none;
+    text-decoration: none;
+    color: 	#00623F;
+    font-size: 1.3rem;
+}
+footer div a:active{
+   text-decoration: none;
+   font-style: none;
+    text-decoration: none;
+    color: black;
+}
+
+
+/*the photos disgn*/
+
+
+
+
+
+
+
+
+
+
+main :nth-child(1) .rightdiv{
+    background-color: 	rgb(160,194,146);
+}
+
+main :nth-child(1) .paragraphwrapper{  
+    background-color:  rgb(160,194,146);
+}
+main :nth-child(1) button{  
+    background-color:  rgb(160,194,146);
+}
+   
+main :nth-child(2){
+    background-color: 	#00623F;
+}
+
+main :nth-child(2) .rightdiv{
+    background-color: 	#00623F;
+}
+main :nth-child(2) .leftdiv{
+    background-color: 		rgb(212,233,226);
+}
+
+main :nth-child(2) .leftdiv .title{
+ font-size: 2rem;
+ margin: 2em;
+}
+
+main :nth-child(2) .leftdiv button{
+ margin-bottom: 1em;    
+ background-color: 	rgb(212,233,226);
+}
+main :nth-child(2) .paragraphwrapper{  
+    background-color: 	rgb(212,233,226);
+}
+
+
+main :nth-child(3){
+    background-color: 		rgb(246,191,217);
+}
+
+main :nth-child(3) .leftdiv{
+    background-color: 		rgb(246,191,217);
+}
+main :nth-child(3) .rightdiv{
+    background-color: 		rgb(246,191,217);
+}
+main :nth-child(3) .leftdiv .title{
+ font-size: 2rem;
+ margin: 2em;
+}
+
+main :nth-child(3) .leftdiv button{
+ margin-bottom: 1em;    
+ background-color: 	rgb(246,191,217);
+}
+main :nth-child(3) .paragraphwrapper{  
+    background-color: 		rgb(246,191,217);
+}
+
+
+
+main :nth-child(4){
+    background-color: 		rgb(255,197,25);
+}
+
+main :nth-child(4) .leftdiv{
+    background-color: 		rgb(255,197,25);
+}
+main :nth-child(4) .rightdiv{
+    background-color: 	rgb(255,197,25);
+}
+main :nth-child(4) .leftdiv .title{
+ font-size: 2rem;
+ margin: 2em;
+}
+
+main :nth-child(4) .leftdiv button{
+ margin-bottom: 1em;    
+ background-color: rgb(255,197,25);
+}
+main :nth-child(4) .paragraphwrapper{  
+    background-color: 	rgb(255,197,25);
+}
+
+
+main :nth-child(5){
+    background-color: 	rgb(255,244,212);
+}
+
+main :nth-child(5) .leftdiv{
+    background-color: 		rgb(255,244,212);
+}
+main :nth-child(5) .rightdiv{
+    background-color: rgb(255,244,212);
+}
+main :nth-child(5) .leftdiv .title{
+ font-size: 2rem;
+ margin: 2em;
+}
+
+main :nth-child(5) .leftdiv button{
+ margin-bottom: 1em;    
+ background-color: rgb(255,244,212);
+}
+main :nth-child(5) .paragraphwrapper{  
+    background-color: rgb(255,244,212);
+}
+
+
+/*media*/
+
+
+@media (min-width: 715px){
+    header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1.2em 1.5em;
+        box-shadow: 1;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    }
+    .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .logo{
+        height: 50px;
+        cursor: pointer;
+    }
+    ul{
+        margin-left: 1.5em;
+        list-style: none;
+        display: flex;
+    }
+    li{
+        margin-right: 1em;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+    .location{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 2em;
+    }
+    .location img{
+        height: 20px;
+        margin-right: 0.4em ;
+    }
+    .signin-button{
+        background-color: white;
+        border: 1px solid black;
+        padding-left: 1em;
+        padding-right: 1em;
+        padding-top: 0.5em;
+        padding-bottom: 0.5em;
+        border-radius: 40px;
+        margin-right: 0.7em;
+    }
+    .joinnow-button{
+        background-color: black;
+        color: white;
+        font-weight: bold;
+        border: 1px solid black;
+        padding-left: 0.7em;
+        padding-right: 0.7em;
+        padding-top: 0.5em;
+        padding-bottom: 0.5em;
+        border-radius: 40px;
+    }
+    .menudiv{
+       display: none;
+    }
+}
+
+@media (max-width: 715px){
+ ul{
+    display: none;
+
+ }
+ .location{
+    display: none;
+
+ }
+ .right-menu-section button{
+    display: none;
+ }
+ main .container{
+   flex-direction: column;
+}
+.leftdiv{
+    flex-direction: column;
+}
+.rightdiv{
+    flex-direction: column;
+}
+main .container{
+    max-width: 1440px;
+    max-height: none;
+}
+main :nth-child(2){
+    background-color: rgb(212,233,226);
+}
+button{
+    margin-bottom: 1.4em;
+}
+.title{
+    margin-top: 1em;
+}
+}
